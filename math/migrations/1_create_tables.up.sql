@@ -1,0 +1,5 @@
+CREATE TABLE math (
+  id BIGSERIAL PRIMARY KEY,
+  input TEXT NOT NULL,
+  output TEXT NOT NULL
+);

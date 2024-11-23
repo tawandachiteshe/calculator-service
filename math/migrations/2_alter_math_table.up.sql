@@ -1,0 +1,2 @@
+ALTER TABLE math 
+ADD userId TEXT NOT NULL DEFAULT '';
