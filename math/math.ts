@@ -1,6 +1,5 @@
 import { APIError, ErrCode, api } from "encore.dev/api";
 import { SQLDatabase } from "encore.dev/storage/sqldb";
-import { ApiCallError } from "../../../.encore/runtimes/js/encore.dev/internal/runtime/mod";
 
 const db = new SQLDatabase("math", { migrations: "./migrations" });
 
